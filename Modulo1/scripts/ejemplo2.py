@@ -15,7 +15,6 @@ cantidad_barras = int(input('Ingrese el numero de barras de pan vendidas que no 
 descuento_aplicado = DESCUENTO * cantidad_barras * PRECIO_PAN
 precio_pagado = cantidad_barras * PRECIO_PAN *(1-DESCUENTO)
 
-
 print(f'Precio barra pan {PRECIO_PAN}')
 print(f'Descuento aplicado {descuento_aplicado} ')
 print(f'Precio pagado por el cliente: {precio_pagado:.2f}')
